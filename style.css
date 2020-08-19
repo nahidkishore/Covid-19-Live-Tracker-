@@ -1,0 +1,23 @@
+body{
+  background-color: #13141b;
+  color: #ffffff;
+  background-image: url(images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+#track{
+  text-align: center;
+  color: aqua;
+}
+.date{
+  color: rgb(226, 80, 43);
+}
+.time{
+  color: aqua;
+}
+.footer{
+  text-align: center;
+  margin-top: 60px;
+  color: green;
+}

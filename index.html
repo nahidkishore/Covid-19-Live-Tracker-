@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Covid-19 Tracker</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="track" >Covid-19  Live Tracker</h1>
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input  id="input" autocomplete="off"  type="text" class="form-control" placeholder="Enter a country name ...">
+                <div class="input-group-append">
+                    <button onclick="" id="search-btn" type="button" class="btn btn-success">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="text-center">
+            <p> Current Date and Time : <span class="date" id="current_date"> </span>   <span class="time" id="current_time"> </span></p>
+            <h3> </h3>
+            
+            
+        </div>
+
+        <div class=" text-white text-center">
+            
+        <h1 id="country"></h1>
+           
+         <h3 id="affect-number" ></h3>
+         <h3 id="cases"></h3>
+         
+        <p id="recover-num" ></p>
+        <p id="death-num"></p>
+        
+        <p id="TodayCases"></p>
+        <p id="todayDeaths"></p>
+        <p id="active"></p>
+        <p id="totalTests"></p>
+        </div>
+      
+    </div>
+    <div>
+        <p class="footer">All rights reserved &copy nahid<i class="fa fa-copyright" aria-hidden="true"></i></p>
+    </div>
+   
+    <script src="./main.js"></script>
+   
+</body>
+
+</html>
