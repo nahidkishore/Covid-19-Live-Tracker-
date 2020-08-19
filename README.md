@@ -4,4 +4,4 @@ Api Url: https://coronavirus-19-api.herokuapp.com/countries
 
 You can see the current situation of affected countries details...
 
-![images](screenshot-1.png)
+![images](images/screenshot-1.png)
